@@ -13,20 +13,139 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+  background-color: #343a40; 
+  color: #ffffff; 
+  padding-top: 1rem; 
+  padding-bottom: 1rem; 
 }
 
-.App-link {
-  color: #61dafb;
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0; 
+}
+
+.header nav a {
+  color: #ffffff;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  text-decoration: none;
+}
+
+.header nav a:hover {
+  color: #cccccc;
+}
+
+.school-features {
+  background-color: #f8f9fa;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.school-features .container {
+  text-align: center;
+}
+
+.school-features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.school-features .row {
+  margin-top: 1rem;
+}
+
+.school-features .col-md-4 {
+  margin-bottom: 2rem;
+}
+
+.school-features .col-md-4 img {
+  max-width: 150px; 
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+.school-features .col-md-4 h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.school-features .col-md-4 p {
+  text-align: justify;
+}
+
+.hero-section {
+  background-image: url('path-to-your-background-image.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .container {
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-section .btn {
+  font-size: 1.25rem;
+}
+
+.company-profile {
+  background-color: #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.company-profile .container {
+  text-align: center;
+}
+
+.company-profile h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.company-profile .row {
+  margin-top: 1rem;
+}
+
+.company-profile .col-md-6 {
+  margin-bottom: 2rem;
+}
+
+.company-profile img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.company-profile p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
 
 @keyframes App-logo-spin {
   from {
